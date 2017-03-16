@@ -7,15 +7,15 @@ public class GradeBookTest {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner( System.in );
-		
-		
+
+
 		GradeBook myGradeBook = new GradeBook();
-		
+
 		System.out.println( "Please enter the courseName");
-		
+
 		String courseName = input.nextLine();
 		System.out.println();
-		
+
 		myGradeBook.displayMessage( courseName );
 	}
 
